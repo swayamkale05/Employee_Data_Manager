@@ -42,6 +42,7 @@ def show_employees() -> None:
  emp["department"], f"{emp['salary']:,.2f}")
  Console().print(table)
 
-show_employees()
+
 if __name__ == "__main__":
-   main()
+    main()
+    show_employees()
