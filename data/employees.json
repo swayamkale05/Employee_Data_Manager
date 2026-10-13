@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "sk",
+    "email": "sk@gmail.com",
+    "department": "10000",
+    "salary": 1000.0
+  },
+  {
+    "id": 2,
+    "name": "swayam",
+    "email": "sk@gmail.com",
+    "department": "hr",
+    "salary": 10000.0
+  }
+]
