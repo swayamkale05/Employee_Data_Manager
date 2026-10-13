@@ -2,6 +2,8 @@ from .storage import load_employees
 from .validators import parse_salary
 from .models import add_employee
 from .storage import save_employees
+from rich.console import Console
+from rich.table import Table
 
 def main():
  employees = load_employees()
@@ -30,5 +32,16 @@ def main():
    print("Invalid option.")
 
 
+
+def show_employees() -> None:
+ table = Table(title="Employees")
+ for col in ("ID", "Name", "Department", "Salary"):
+  table.add_column(col)
+ for emp in load_employees():
+  table.add_row(str(emp["id"]), emp["name"],
+ emp["department"], f"{emp['salary']:,.2f}")
+ Console().print(table)
+
+show_employees()
 if __name__ == "__main__":
    main()
