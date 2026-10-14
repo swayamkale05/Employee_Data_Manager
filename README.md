@@ -31,3 +31,11 @@ dation
 * 4218a2d add models
 * f90d992 added cli
 * b85c67f added .gitignore
+
+1. Peer report
+   name: mukund deshmukh
+   suggestions:
+     1. add command to set execution policy 
+          Set-ExecutionPolicy Bypass -Scope Process
+     2. installation command 
+         pip install -r requirements.txt
