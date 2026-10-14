@@ -33,13 +33,10 @@ dation
 * b85c67f added .gitignore
 
 
-peer test Report: 
-1. add command to set execution policy 
- Set-ExecutionPolicy Bypass -Scope Process
-2. installation command 
-    pip install -r requirements.txt
-
-
-
-
-
+1. Peer report
+   name: mukund deshmukh
+   suggestions:
+     1. add command to set execution policy 
+          Set-ExecutionPolicy Bypass -Scope Process
+     2. installation command 
+         pip install -r requirements.txt
